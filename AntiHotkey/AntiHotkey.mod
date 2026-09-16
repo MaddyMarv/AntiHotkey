@@ -1,6 +1,6 @@
 return {
 	run = function()
-		fassert(rawget(_G, "new_mod"), "`AntiHotkey` mod must be lower than DMF in load order.")
+		fassert(rawget(_G, "new_mod"), "`AntiHotkey` encountered an error loading the Darktide Mod Framework.")
 
 		new_mod("AntiHotkey", {
 			mod_script       = "AntiHotkey/scripts/mods/AntiHotkey/AntiHotkey",
