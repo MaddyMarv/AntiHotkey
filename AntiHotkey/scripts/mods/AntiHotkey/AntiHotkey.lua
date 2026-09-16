@@ -40,3 +40,17 @@ if dmf then
         return func(target_mod, view_name, transition_data, can_perform_action, is_pressed)
     end)
 end
+
+mod:hook_require("scripts/managers/ui/ui_manager", function(instance)
+    mod:hook(instance, "open_view", function(func, self, view_name, ...)
+        if view_name == "inventory_background_view" and mod:get("suppress_vanilla_inventory") then
+            local input_manager = Managers.input
+
+            if input_manager and input_manager:cursor_active() then
+                return
+            end
+        end
+
+        return func(self, view_name, ...)
+    end)
+end)
