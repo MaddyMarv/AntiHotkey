@@ -2,7 +2,7 @@ Prevents DMF hotkeys from triggering while typing in chat.
 
 Includes a whitelist system so you can pick and choose which mods (like DMF) bypass the protection.
 
-Just go into the mod folder then find the `anti_hotkey.lua` file and edit the `whitelisted_mods` section to add or remove mods. 
+Just go into the mod folder then find the `AntiHotkey.lua` file and edit the `whitelisted_mods` section to add or remove mods. 
 
 [b]Links:[/b]
 [url=https://github.com/MaddyMarv/Anti-Keybinds]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]

@@ -1,4 +1,4 @@
-local mod = get_mod("anti_hotkey")
+local mod = get_mod("AntiHotkey")
 
 return {
     name = mod:localize("mod_name"),
