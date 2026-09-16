@@ -1,4 +1,5 @@
 ### [AntiHotkey](https://www.nexusmods.com/warhammer40kdarktide/mods/1316)
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/8325cb90-2e42-4b4e-bf51-d1bc07bf9d0d" />
 
 Prevents DMF hotkeys from triggering while typing in chat.
 
