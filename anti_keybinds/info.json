@@ -4,7 +4,7 @@
     "version": "1.0",
     "homepage": "https://www.nexusmods.com/warhammer40kdarktide",
     "source": "https://github.com/MaddyMarv",
-    "description": "Prevents DMF hotkeys from triggering when typing in chat",
+    "description": "Prevents DMF hotkeys from triggering when typing",
     "order": {
         "require": [],
         "this_before": [],
