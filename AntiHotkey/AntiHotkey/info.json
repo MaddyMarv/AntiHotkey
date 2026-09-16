@@ -3,7 +3,7 @@
     "author": "IndicaBunny",
     "version": "1.0",
     "homepage": "https://www.nexusmods.com/warhammer40kdarktide/mods/1316",
-    "source": "https://github.com/MaddyMarv",
+    "source": "https://github.com/MaddyMarv/AntiHotkey",
     "description": "Prevents DMF hotkeys from triggering when typing",
     "order": {
         "require": [],
