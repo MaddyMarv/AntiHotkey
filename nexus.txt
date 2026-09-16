@@ -5,4 +5,4 @@ Includes a whitelist system so you can pick and choose which mods (like DMF) byp
 Just go into the mod folder, then find the [b][u]AntiHotkey.lua[/u][/b] file and edit the [u][b]whitelisted_mods[/b][/u] section to add or remove mods.
 
 [b]Links:[/b]
-[url=https://github.com/MaddyMarv/Anti-Keybinds]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]
+[url=https://github.com/MaddyMarv/AntiHotkey]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]
