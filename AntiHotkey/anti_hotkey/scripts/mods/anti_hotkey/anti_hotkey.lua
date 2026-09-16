@@ -1,11 +1,11 @@
-local mod = get_mod("anti_keybinds")
+local mod = get_mod("anti_hotkey")
 local dmf = get_mod("DMF")
 
 --Put the mod file name here 
 --Example: ["mod_name"] = true,
 local whitelisted_mods = {
     ["DMF"] = true,
-    ["anti_keybinds"] = true,
+    ["anti_hotkey"] = true,
     ["your_mod_here?"] = true,
 }
 
