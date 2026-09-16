@@ -42,15 +42,34 @@ if dmf then
 end
 
 mod:hook_require("scripts/managers/ui/ui_manager", function(instance)
-    mod:hook(instance, "open_view", function(func, self, view_name, ...)
-        if view_name == "inventory_background_view" and mod:get("suppress_vanilla_inventory") then
-            local input_manager = Managers.input
-
-            if input_manager and input_manager:cursor_active() then
-                return
+    mod:hook(instance, "_update_view_hotkeys", function(func, self)
+        local input_manager = Managers.input
+        
+        if mod:get("suppress_vanilla_inventory") and input_manager and input_manager:cursor_active() then
+            local hotkey_settings = self._update_hotkeys
+            
+            if hotkey_settings and hotkey_settings.hotkeys then
+                local inventory_hotkey
+                
+                for hotkey, view_name in pairs(hotkey_settings.hotkeys) do
+                    if view_name == "inventory_background_view" then
+                        inventory_hotkey = hotkey
+                        break
+                    end
+                end
+                
+                if inventory_hotkey then
+                    hotkey_settings.hotkeys[inventory_hotkey] = nil
+                    
+                    local result = func(self)
+                    
+                    hotkey_settings.hotkeys[inventory_hotkey] = "inventory_background_view"
+                    
+                    return result
+                end
             end
         end
 
-        return func(self, view_name, ...)
+        return func(self)
     end)
 end)
