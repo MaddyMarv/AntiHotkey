@@ -1,6 +1,6 @@
 return {
     mod_name = {
-        en = "Anti Hotkey",
+        en = "AntiHotkey",
     },
     mod_description = {
         en = "Prevents DMF hotkeys from triggering when typing in chat.",
