@@ -1,4 +1,4 @@
-### [AntiKeybind](https://www.nexusmods.com/warhammer40kdarktide/mods/1316)
+### [AntiHotkey](https://www.nexusmods.com/warhammer40kdarktide/mods/1316)
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/ae3608ca-d88f-4b49-8dd4-57d389fdf50f" />
 
 Prevents DMF hotkeys from triggering while typing in chat.
