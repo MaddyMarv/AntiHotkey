@@ -1,0 +1,14 @@
+{
+    "name": "Anti Keybinds",
+    "author": "MaddyMarv",
+    "version": "1.0.0",
+    "homepage": "https://www.nexusmods.com/warhammer40kdarktide",
+    "source": "https://github.com/MaddyMarv",
+    "description": "Prevents DMF hotkeys from triggering when typing in chat",
+    "order": {
+        "require": [],
+        "this_before": [],
+        "this_after": []
+    },
+    "localization": {}
+}
