@@ -9,9 +9,11 @@ Just go into the mod folder, then find the 'AntiHotkey.lua file' and edit the 'w
 
 <img width="328" height="182" alt="image" src="https://github.com/user-attachments/assets/7f3dfeeb-1c3a-4e63-9165-827f19950e21" />
 
-**Options:**
+<details>
+<summary><b>Mod Settings / Commands</b></summary>
 
 **General**
 - Suppress Vanilla Inventory Hotkey
+</details>
 
 🔗 **Links:** [Source Code](https://github.com/MaddyMarv/AntiHotkey) | [Nexus Mods Profile](https://www.nexusmods.com/profile/indicabunny) | [Support Me on Ko-fi](https://ko-fi.com/indicabunny)
