@@ -4,11 +4,14 @@
     "version": "1.2",
     "homepage": "https://www.nexusmods.com/warhammer40kdarktide/mods/1316",
     "source": "https://github.com/MaddyMarv/AntiHotkey",
+    "funding": {
+        "kofi": "https://ko-fi.com/indicabunny"
+    },
     "description": "Prevents DMF hotkeys from triggering when typing",
-    "order": {
-        "require": [],
-        "this_before": [],
-        "this_after": []
+    "dependencies": {
+        "required": [],
+        "self_after": [],
+        "self_before": []
     },
     "localization": {}
 }
