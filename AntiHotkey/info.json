@@ -7,7 +7,7 @@
     "funding": {
         "kofi": "https://ko-fi.com/indicabunny"
     },
-    "description": "Prevents DMF hotkeys from triggering when typing",
+    "description": "Prevents DMF hotkeys and the vanilla inventory hotkey from triggering while typing. Includes a mod whitelist.",
     "dependencies": {
         "required": [],
         "self_after": [],
